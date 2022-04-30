@@ -53,7 +53,7 @@ import android.util.Log;
  * <pre>
  *     &lt;injected-location-setting xmlns:android="http://schemas.android.com/apk/res/android"
  *         android:title="@string/injected_setting_title"
- *         android:icon="@drawable/ic_acme_corp"
+ *         android:icon="@drawable/ic_csc_corp"
  *         android:settingsActivity="com.example.android.injector.MySettingActivity"
  *     /&gt;
  * </pre>
@@ -61,7 +61,7 @@ import android.util.Log;
  * <ul>
  * <li>title: The {@link android.preference.Preference#getTitle()} value. The title should make
  * it clear which apps are affected by the setting, typically by including the name of the
- * developer. For example, "Acme Corp. ads preferences." </li>
+ * developer. For example, "Csc Corp. ads preferences." </li>
  *
  * <li>icon: The {@link android.preference.Preference#getIcon()} value. Typically this will be a
  * generic icon for the developer rather than the icon for an individual app.</li>

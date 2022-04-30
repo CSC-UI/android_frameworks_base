@@ -159,7 +159,7 @@ public final class ContactsContract {
      * Query parameter that should be used by the client to access a specific
      * {@link Directory}. The parameter value should be the _ID of the corresponding
      * directory, e.g.
-     * {@code content://com.android.contacts/data/emails/filter/acme?directory=3}
+     * {@code content://com.android.contacts/data/emails/filter/csc?directory=3}
      */
     public static final String DIRECTORY_PARAM_KEY = "directory";
 
@@ -517,7 +517,7 @@ public final class ContactsContract {
 
         /**
          * An optional name that can be used in the UI to represent this directory,
-         * e.g. "Acme Corp"
+         * e.g. "Csc Corp"
          * <p>TYPE: text</p>
          */
         public static final String DISPLAY_NAME = "displayName";

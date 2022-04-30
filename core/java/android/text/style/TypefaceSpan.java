@@ -40,7 +40,7 @@ import android.text.TextUtils;
  * <code>TypefaceSpan</code> based on a font family: "monospace", the resulted text will keep the
  * italic style.
  * <pre>
- * Typeface myTypeface = Typeface.create(ResourcesCompat.getFont(context, R.font.acme),
+ * Typeface myTypeface = Typeface.create(ResourcesCompat.getFont(context, R.font.csc),
  * Typeface.BOLD);
  * SpannableString string = new SpannableString("Text with typeface span.");
  * string.setSpan(new TypefaceSpan(myTypeface), 10, 18, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
